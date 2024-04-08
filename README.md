@@ -210,8 +210,6 @@ int i = a.intValue(); //Explicit
 ```
 ### method in string wrapper class
 
-![Screenshot 2024-04-03 091946.png](Screenshot%202024-04-03%20091946.png)
-
 >Object or variable of a string class will never be changed even if you contact replace trim or any operation to it To save the updated screen after these operations You need to create another variable or object of the string class.
 
 ### example of string class methods
@@ -274,7 +272,7 @@ but we can't directly pass a string to a string buffer object.
 * you commissary need an object to initialize the string in a stringBuffer calls
 
 ### String Buffer Methods
-![stringBuffer_methods.png](stringBuffer_methods.png)
+![stringBuffer_methods.png]
 
 #### Example:
 ``` 
@@ -348,14 +346,14 @@ interface {
 
 ### Relationship Between Class and Interface
 
-![interface.png](interface.png)
+
 
 ### Advantage
 * Without bothering about the implementation part, we can achieve the security of the implementation.
 * In Java, multiple inheritances are not allowed; however, you can use an interface to make use of it as you can implement more than one interface.
 
 ### Multiple Inheritance in Java Using Interface
-![interface2.png](interface2.png)
+
 
 ### take out
 * We can’t create an instance (interface can’t be instantiated) of the interface, but we can make the reference to it that refers to the Object of its implementing class.
